@@ -2,10 +2,10 @@
 revshell is the command line version of the Reverse Shell Generator. Currently, it supports the generation of: bash, sh, nc, ruby, php, python, rcat, perl, socat, node, telnet, zsh, lua, golang, vlang, awk, crystal.
 
 Usage:   
-./revshell [IPADDR] [PORT] [LANGUAGE]
+`./revshell [IPADDR] [PORT] [LANGUAGE]`
 
 Example: 
-./revshell 192.168.1.1 1234 bash
+`./revshell 192.168.1.1 1234 bash`
 
 Supported languages: 
 bash|sh|nc|ruby|php|python|rcat|perl|socat|node|telnet|zsh|lua|golang|vlang|awk|crystal
