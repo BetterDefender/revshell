@@ -4,9 +4,17 @@ import (
 	"fmt"
 	"os"
 	"strings"
+	// "runtime"
+	"github.com/fatih/color"
 )
 
 func main() {
+	// if runtime.GOOS == "windows" {
+	// 	// 禁用颜色
+	// 	color.NoColor = true
+	// }
+
+	color.NoColor = true
 	// red := "\u001b[31m"        // 红色
 	green := "\u001b[32m"      // 绿色
 	// yellow := "\u001b[33m"     // 黄色
@@ -205,7 +213,7 @@ var dictionary = map[string][]string{
 		fmt.Println(asciiArt)
 		fmt.Println(brightYellow + "Usage:   \n"+ green + "./revshell [IPADDR] [PORT] [LANGUAGE]\n")
 		fmt.Println(brightMagenta + "Example: \n"+ green + "./revshell 192.168.1.1 1234 bash\n")
-		fmt.Println(brightCyan + "Supported languages: \n" + green + "bash|sh|nc|ruby|php|python|rcat|perl|socat|node|telnet|zsh|lua|golang|vlang|awk|crystal")
+		fmt.Println(brightCyan + "Supported languages: \n" + green + "bash|sh|nc|ruby|php|python|rcat|perl|socat|node|telnet|zsh|lua|golang|vlang|awk|crystal" + resett)
 		return
 	}
 
@@ -218,7 +226,7 @@ var dictionary = map[string][]string{
 		for _, command := range commands {
 			replaced := strings.ReplaceAll(command, "[IPADDR]", ipAddr)
 			replaced = strings.ReplaceAll(replaced, "[PORT]", port)
-			fmt.Println(green + replaced)
+			fmt.Println(green + replaced + resett)
 		}
 	} else {
 		fmt.Println("Language not found in the dictionary.")
