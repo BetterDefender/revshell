@@ -4,7 +4,6 @@ revshell is the command line version of the Reverse Shell Generator. Currently, 
 Usage:   
 `./revshell [IPADDR] [PORT] [LANGUAGE]`
 
-Example: 
 `./revshell 192.168.1.1 1234 bash`
 
 Supported languages: 
