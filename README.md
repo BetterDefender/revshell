@@ -12,11 +12,12 @@ revshell is the command line version of the Reverse Shell Generator. Currently, 
 
 bash|sh|nc|ruby|php|python|rcat|perl|socat|node|telnet|zsh|lua|golang|vlang|awk|crystal
 
-<img width="1213" alt="image" src="https://github.com/BetterDefender/revshell/assets/59255707/fe9d2ff8-2d6c-4297-8615-c4ffbd8fb983">
+<img width="1210" alt="image" src="https://github.com/BetterDefender/revshell/assets/59255707/f245955e-714f-41db-9f39-abf79c7ba4be">
 
 
 ## Example:
 
 `./revshell 192.168.1.1 2222 bash`
-<img width="1211" alt="image" src="https://github.com/BetterDefender/revshell/assets/59255707/56d65a16-42f3-435e-b349-759daf5df082">
+
+<img width="1213" alt="image" src="https://github.com/BetterDefender/revshell/assets/59255707/c5c4ea25-9191-4b5c-ab20-b3a86a604de3">
 
