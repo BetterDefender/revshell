@@ -1,5 +1,7 @@
 # revshell
-revshell is the command line version of the Reverse Shell Generator. Currently, it supports the generation of: bash, sh, nc, ruby, php, python, rcat, perl, socat, node, telnet, zsh, lua, golang, vlang, awk, crystal.
+revshell is a reverse shell tool written in Go language, it is the command line version of Reverse Shell Generator, which is designed to help security researchers and penetration testers to quickly generate the appropriate Shell when they need to establish a reverse connection with the target host, users can choose from a wide range of Shell types to generate the bounce Shell code suitable for their own needs, so as to more efficiently interact with the target host and control it in tasks such as penetration testing, vulnerability exploits, or security assessments.
+
+Translated with www.DeepL.com/Translator (free version)
 
 Supported operating systems: Mac, Linux, Windows.
 
